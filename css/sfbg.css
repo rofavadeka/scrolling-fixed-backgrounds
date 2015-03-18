@@ -1,0 +1,30 @@
+/* =============================================== *
+ * Scrolling fixed backgrounds Styles
+ * =============================================== *
+ * Author: Rolf van der Kaaden
+ *
+ * Creates a simple paralex like scrolling effect
+ * by stacking fixed backgrounds on top of each
+ * other and using content blocks to partially
+ * hide or show the fixed backgrounds.
+ */
+
+.parent {
+	position: relative;
+}
+
+.picture>img {
+	width: 100%;
+	height: 750px;
+}
+
+.picture>.overlay {
+	position: absolute;
+	margin-top: 375px;
+	margin-left: 50px;
+}
+
+.content {
+	background: #ffffff;
+}
+ 

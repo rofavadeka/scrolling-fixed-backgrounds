@@ -1,0 +1,35 @@
+/* Just some styles */
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	padding: 20px;
+	font-size: 24px;
+	text-align: center;
+	background: #ffffff;
+}
+
+h1, h2 {
+	margin: 0px;
+}
+
+h2, p {
+	width: 1024px;
+	margin: auto;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+p {
+	padding: 50px;
+}
+
+.picture>.overlay {
+	padding: 20px 50px;
+	background: #ffffff;
+}
